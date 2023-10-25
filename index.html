@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel o Tijeras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Piedra, Papel o Tijera</h1>
+    </header>
+    <div class="tabla-puntuacion">
+        <div id="usuario" class="etiqueta">Jugador</div>
+        <div id="pc" class="etiqueta">Enemigo</div>
+        <span id="puntuacion-usuario">0</span>:<span id="puntuacion-pc">0</span>
+    </div>
+    <div class="ayuda">
+        <div class="regla">
+            <p>Papel mata Piedra.</p>
+        </div>
+        <div class="regla">
+            <p>Piedra mata Tijera.</p>
+        </div>
+        <div class="regla">
+            <p>Tijera mata Papel.</p>
+        </div>
+    </div>
+    <div class="resultado">
+        <p>Resultado</p>
+    </div>
+    <div class="opciones">
+        <div class="opcion" id="pi">
+            <p>✊🏽</p>
+        </div>
+        <div class="opcion" id="pa">
+            <p>🖐🏽</p>
+        </div>
+        <div class="opcion" id="ti">
+            <p>✌🏽</p>
+        </div>
+    </div>
+    <p id="mensaje">Elegí tu movimiento.</p>
+</body>
+<script src="./js.js"></script>
+</html>
